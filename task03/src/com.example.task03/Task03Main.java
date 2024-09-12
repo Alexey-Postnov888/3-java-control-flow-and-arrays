@@ -6,7 +6,7 @@ public class Task03Main {
     }
 
     static String getNameOfWeekDays(int weekDaysNumber) {
-        String[] day = { "понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресенье" };
+        String[] day = {"понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресенье"};
         return day[weekDaysNumber - 1];
     }
 }
